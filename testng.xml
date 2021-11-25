@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tests" >
+    <test name="Tests">
+        <classes>
+            <class name="tests.FailedLoginTest">
+            </class>
+            <class name="tests.LoginTest">
+            </class>
+            <class name="tests_with_login.BuyOneItemTest">
+            </class>
+            <class name="tests_with_login.LogoutTest">
+            </class>
+            <class name="tests_with_login.RemoveOneItemFromCartTest">
+            </class>
+        </classes>
+    </test>
+</suite>
